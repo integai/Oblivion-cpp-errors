@@ -1,6 +1,7 @@
 #include <string>
 #include <vector>
 #include "crypto/sha256.h"
+#include "transaction.h"
 using namespace std;
 
 class Block {
@@ -11,6 +12,7 @@ public:
     std::string sData;
     std::string sExtraData;
     std::string sMemo;
+    vector<Transaction> transactions;
 
     Block(std::string sDataIn, std::string sPrevHashIn, std::string sExtraDataIn = "", std::string sMemoIn = "");
     Block createGenesisBlock();
@@ -20,6 +22,7 @@ public:
     std::string GetExtraData() const;
     std::string GetMemo() const;
     std::string CalculateHash() const;
+    vector<Transaction> GetTransactions() const;
 };
 
 Block::Block(std::string sDataIn, std::string sPrevHashIn, std::string sExtraDataIn, std::string sMemoIn) {
@@ -49,4 +52,8 @@ string Block::GetExtraData() const {
 
 string Block::GetMemo() const {
     return this->sMemo;
+}
+
+vector<Transaction> Block::GetTransactions() const { // Added a getter for transactions
+    return this->transactions;
 }

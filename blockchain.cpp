@@ -16,6 +16,7 @@ public:
     void addBlock(Block &newBlock);
     void MineBlock(Block &newBlock, int difficulty);
     bool IsEmpty() const;
+    double getBalance(const string& address) const; // New function to check wallet balance
 };
 
 Blockchain::Blockchain() {
@@ -68,9 +69,24 @@ void Blockchain::MineBlock(Block &newBlock, int difficulty) {
 void Blockchain::addBlock(Block &newBlock) {
     newBlock.sPrevHash = getLatestBlock().GetHash();
     MineBlock(newBlock, difficulty);
-    chain.push_back(std::move(newBlock)); // Use move semantics to avoid copying
+    chain.push_back(std::move(newBlock));
 }
 
 bool Blockchain::IsEmpty() const {
     return chain.empty();
+}
+
+double Blockchain::getBalance(const string& address) const {
+    double balance = 0.0;
+    for(const auto& block : chain) {
+        for(const auto& transaction : block.GetTransactions()) {
+            if(transaction.senderKey == address) {
+                balance -= transaction.amount;
+            }
+            if(transaction.receiverKey == address) {
+                balance += transaction.amount;
+            }
+        }
+    }
+    return balance;
 }

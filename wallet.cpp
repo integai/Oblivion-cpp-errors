@@ -1,4 +1,4 @@
-#include "adresses/private_adress_gen.h"
+#include "adresses/private_key_gen.h"
 #include "adresses/pub_adress_isValid.h"
 #include "adresses/pub_adress_generate.h"
 #include "transaction.h"
@@ -21,26 +21,23 @@ public:
     }
 
     void createTransaction(const std::string& receiver, int amount, Blockchain* blockchain) {
-        Transaction transaction(address, receiver, amount, blockchain);
+        Transaction transaction = blockchain->createTransaction(address, receiver, amount);
         transactionHash = transaction.getTransactionHash();
     }
 
-    void signTransaction() {
-        Transaction transaction;
+    void signTransaction(Transaction& transaction) {
         transaction.signTransaction(private_key);
     }
 
-    void sendTransaction() {
-        Transaction transaction;
-        if (transaction.isValid()) {
-            transaction.send();
+    void sendTransaction(Transaction& transaction, Blockchain* blockchain) {
+        if (blockchain->isTransactionValid(transaction)) {
+            blockchain->addTransaction(transaction);
         } else {
             throw std::runtime_error("Invalid transaction or blockchain");
         }
     }
 
     int checkBalance(Blockchain* blockchain) {
-        // Assuming a getBalance function in Blockchain class
         return blockchain->getBalance(address);
     }
 
@@ -78,3 +75,4 @@ private:
         }
     }
 };
+
