@@ -1,0 +1,50 @@
+[
+{
+  "directory": "/Users/oblivisheee/Documents/GitHub/Oblivion/build",
+  "command": "/usr/bin/clang++  -I/Users/oblivisheee/Documents/GitHub/Oblivion -isystem /opt/homebrew/Cellar/openssl@3/3.2.0_1/include -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/Oblivion.dir/main.cpp.o -c /Users/oblivisheee/Documents/GitHub/Oblivion/main.cpp",
+  "file": "/Users/oblivisheee/Documents/GitHub/Oblivion/main.cpp",
+  "output": "CMakeFiles/Oblivion.dir/main.cpp.o"
+},
+{
+  "directory": "/Users/oblivisheee/Documents/GitHub/Oblivion/build",
+  "command": "/usr/bin/clang++  -I/Users/oblivisheee/Documents/GitHub/Oblivion -isystem /opt/homebrew/Cellar/openssl@3/3.2.0_1/include -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/Oblivion.dir/blockchain.cpp.o -c /Users/oblivisheee/Documents/GitHub/Oblivion/blockchain.cpp",
+  "file": "/Users/oblivisheee/Documents/GitHub/Oblivion/blockchain.cpp",
+  "output": "CMakeFiles/Oblivion.dir/blockchain.cpp.o"
+},
+{
+  "directory": "/Users/oblivisheee/Documents/GitHub/Oblivion/build",
+  "command": "/usr/bin/clang++  -I/Users/oblivisheee/Documents/GitHub/Oblivion -isystem /opt/homebrew/Cellar/openssl@3/3.2.0_1/include -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/Oblivion.dir/block.cpp.o -c /Users/oblivisheee/Documents/GitHub/Oblivion/block.cpp",
+  "file": "/Users/oblivisheee/Documents/GitHub/Oblivion/block.cpp",
+  "output": "CMakeFiles/Oblivion.dir/block.cpp.o"
+},
+{
+  "directory": "/Users/oblivisheee/Documents/GitHub/Oblivion/build",
+  "command": "/usr/bin/clang++  -I/Users/oblivisheee/Documents/GitHub/Oblivion -isystem /opt/homebrew/Cellar/openssl@3/3.2.0_1/include -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/Oblivion.dir/crypto/sha256.cpp.o -c /Users/oblivisheee/Documents/GitHub/Oblivion/crypto/sha256.cpp",
+  "file": "/Users/oblivisheee/Documents/GitHub/Oblivion/crypto/sha256.cpp",
+  "output": "CMakeFiles/Oblivion.dir/crypto/sha256.cpp.o"
+},
+{
+  "directory": "/Users/oblivisheee/Documents/GitHub/Oblivion/build",
+  "command": "/usr/bin/clang++  -I/Users/oblivisheee/Documents/GitHub/Oblivion -isystem /opt/homebrew/Cellar/openssl@3/3.2.0_1/include -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/Oblivion.dir/launch.cpp.o -c /Users/oblivisheee/Documents/GitHub/Oblivion/launch.cpp",
+  "file": "/Users/oblivisheee/Documents/GitHub/Oblivion/launch.cpp",
+  "output": "CMakeFiles/Oblivion.dir/launch.cpp.o"
+},
+{
+  "directory": "/Users/oblivisheee/Documents/GitHub/Oblivion/build",
+  "command": "/usr/bin/clang++  -I/Users/oblivisheee/Documents/GitHub/Oblivion -isystem /opt/homebrew/Cellar/openssl@3/3.2.0_1/include -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/Oblivion.dir/transaction.cpp.o -c /Users/oblivisheee/Documents/GitHub/Oblivion/transaction.cpp",
+  "file": "/Users/oblivisheee/Documents/GitHub/Oblivion/transaction.cpp",
+  "output": "CMakeFiles/Oblivion.dir/transaction.cpp.o"
+},
+{
+  "directory": "/Users/oblivisheee/Documents/GitHub/Oblivion/build",
+  "command": "/usr/bin/clang++  -I/Users/oblivisheee/Documents/GitHub/Oblivion -isystem /opt/homebrew/Cellar/openssl@3/3.2.0_1/include -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/Oblivion.dir/utils/isBlockValid.cpp.o -c /Users/oblivisheee/Documents/GitHub/Oblivion/utils/isBlockValid.cpp",
+  "file": "/Users/oblivisheee/Documents/GitHub/Oblivion/utils/isBlockValid.cpp",
+  "output": "CMakeFiles/Oblivion.dir/utils/isBlockValid.cpp.o"
+},
+{
+  "directory": "/Users/oblivisheee/Documents/GitHub/Oblivion/build",
+  "command": "/usr/bin/clang++  -I/Users/oblivisheee/Documents/GitHub/Oblivion -isystem /opt/homebrew/Cellar/openssl@3/3.2.0_1/include -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/Oblivion.dir/utils/isTransactionValid.cpp.o -c /Users/oblivisheee/Documents/GitHub/Oblivion/utils/isTransactionValid.cpp",
+  "file": "/Users/oblivisheee/Documents/GitHub/Oblivion/utils/isTransactionValid.cpp",
+  "output": "CMakeFiles/Oblivion.dir/utils/isTransactionValid.cpp.o"
+}
+]
