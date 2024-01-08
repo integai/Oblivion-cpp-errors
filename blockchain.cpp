@@ -2,6 +2,7 @@
 #include <ctime>
 #include "block.h"
 #include <iostream>
+#include "blockchain.h"
 using namespace std;
 
 class Blockchain {

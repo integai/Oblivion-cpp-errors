@@ -3,6 +3,7 @@
 #include "adresses/pub_adress_generate.h"
 #include "transaction.h"
 #include <fstream>
+#include "wallet.h"
 #include <stdexcept>
 
 class Wallet {

@@ -1,46 +1,38 @@
 #include "blockchain.h"
 #include "transaction.h"
-#include "utils/isTransactionValid.h"
-#include <iostream>
+#include "wallet.h"
 #include "block.h"
-#include "utils/isBlockValid.h"
+#include <iostream>
 using namespace std;
 
 void test_blockchain_creation() {
-
     Blockchain myBlockchain;
-    Block genesisBlock = myBlockchain.createGenesisBlock();
-    myBlockchain.addBlock(genesisBlock);
-    cout << "Genesis block created and added to blockchain. Hash: " << genesisBlock.GetHash() << endl;
-
-    Block newBlock = Block("Block data", genesisBlock.GetHash());
-    myBlockchain.addBlock(newBlock);
-    cout << "New block created and added to blockchain. Hash: " << newBlock.GetHash() << endl;
-    cout << "Previous Hash: " << newBlock.GetPrevHash() << endl;
-
-    bool isValid = isBlockValid(newBlock, myBlockchain);
-    if (isValid) {
-        cout << "The new block is valid." << endl;
-    } else {
-        cout << "The new block is not valid." << endl;
-    }
-    return;
+    cout << "Testing blockchain creation..." << endl;
+    cout << "Blockchain created. Genesis block hash: " << myBlockchain.getGenesisBlock().GetHash() << endl;
+    cout << "Blockchain validity: " << (myBlockchain.isChainValid() ? "Valid" : "Invalid") << endl;
 }
 
-void test_transaction() {
+void test_block_mining() {
     Blockchain myBlockchain;
-    Transaction myTransaction = Transaction("senderKey", "receiverKey", 100, &myBlockchain);
-    myTransaction.send();
-    cout << "Transaction sent. Transaction hash: " << myTransaction.getTransactionHash() << endl;
-    cout << "Sender: " << myTransaction.senderKey << endl;
-    cout << "Receiver: " << myTransaction.receiverKey << endl;
-    cout << "Amount: " << myTransaction.amount << endl;
-    
-    bool isTransValid = isTransactionValid(myTransaction);
-    if (isTransValid) {
-        cout << "The transaction is valid." << endl;
-    } else {
-        cout << "The transaction is not valid." << endl;
-    }
-    return;
+    cout << "Testing block mining..." << endl;
+    Block newBlock = Block("Block data", myBlockchain.getLatestBlock().GetHash());
+    myBlockchain.addBlock(newBlock);
+    cout << "New block mined and added to blockchain. Hash: " << newBlock.GetHash() << endl;
+    cout << "Blockchain validity: " << (myBlockchain.isChainValid() ? "Valid" : "Invalid") << endl;
+}
+
+void test_wallet_functions() {
+    Blockchain myBlockchain;
+    Wallet myWallet;
+    cout << "Testing wallet functions..." << endl;
+    cout << "Wallet address: " << myWallet.getAddress() << endl;
+    cout << "Initial balance: " << myWallet.checkBalance(&myBlockchain) << endl;
+}
+
+void test_transaction_creation() {
+    Blockchain myBlockchain;
+    Wallet senderWallet, receiverWallet;
+    cout << "Testing transaction creation..." << endl;
+    senderWallet.createTransaction(receiverWallet.getAddress(), 100, &myBlockchain);
+    cout << "Transaction created and sent. Sender balance: " << senderWallet.checkBalance(&myBlockchain) << endl;
 }

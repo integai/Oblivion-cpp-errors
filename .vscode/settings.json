@@ -62,6 +62,11 @@
         "semaphore": "cpp",
         "span": "cpp",
         "stack": "cpp",
-        "fstream": "cpp"
+        "fstream": "cpp",
+        "iterator": "cpp",
+        "memory_resource": "cpp",
+        "functional": "cpp",
+        "memory": "cpp",
+        "type_traits": "cpp"
     }
 }

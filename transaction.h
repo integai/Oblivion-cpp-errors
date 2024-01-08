@@ -2,8 +2,8 @@
 #define TRANSACTION_H
 
 #include <string>
-#include "block.h"
-#include "blockchain.h"
+#include "Block.h"
+#include "Blockchain.h"
 
 class Transaction {
 public:

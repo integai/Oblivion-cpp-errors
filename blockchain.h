@@ -6,6 +6,7 @@
 #include <string>
 #include "block.h"
 
+
 class Blockchain {
 public:
     Blockchain();
