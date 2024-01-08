@@ -21,17 +21,17 @@ public:
     }
 
     void createTransaction(const std::string& receiver, int amount, Blockchain* blockchain) {
-        Transaction transaction = blockchain->createTransaction(address, receiver, amount);
-        transactionHash = transaction.getTransactionHash();
+        Transaction transaction(address, receiver, amount, blockchain);
+        std::string transactionHash = transaction.getTransactionHash();
     }
 
     void signTransaction(Transaction& transaction) {
         transaction.signTransaction(private_key);
     }
 
-    void sendTransaction(Transaction& transaction, Blockchain* blockchain) {
-        if (blockchain->isTransactionValid(transaction)) {
-            blockchain->addTransaction(transaction);
+    void sendTransaction(Transaction& transaction) {
+        if (transaction.isValid()) {
+            transaction.send();
         } else {
             throw std::runtime_error("Invalid transaction or blockchain");
         }
