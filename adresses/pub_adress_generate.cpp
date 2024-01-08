@@ -2,6 +2,7 @@
 #include <string>
 #include <sstream>
 #include <iomanip>
+#include "pub_adress_generate.h"
 
 std::string generateWalletAddress(const std::string& privateKey) {
     std::string prefix = "oblivion";

@@ -1,6 +1,6 @@
 #include "../crypto/sha256.h"
 #include <string>
-
+#include "pub_adress_isValid.h"
 bool validateAddress(const std::string& address) {
     std::string prefix = "oblivion";
     if (address.substr(0, prefix.size()) != prefix) {

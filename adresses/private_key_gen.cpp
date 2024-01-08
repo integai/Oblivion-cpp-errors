@@ -2,28 +2,30 @@
 #include <openssl/ec.h>
 #include <openssl/bn.h>
 #include <openssl/obj_mac.h>
+#include <openssl/evp.h>
+#include "private_key_gen.h"
 
 class PrivateKeyGenerator {
 public:
     std::string generate() {
-        EC_KEY *key = EC_KEY_new_by_curve_name(NID_secp256k1);
-
-        if (key == NULL) {
-            std::cerr << "Error creating EC_KEY structure. This should never happen.\n";
-            return "";
-        }
-
-        if (!EC_KEY_generate_key(key)) {
+        EVP_PKEY *pkey = NULL;
+        EVP_PKEY_CTX *pctx = EVP_PKEY_CTX_new_id(EVP_PKEY_EC, NULL);
+        if (!pctx || EVP_PKEY_keygen_init(pctx) <= 0 || EVP_PKEY_CTX_set_ec_paramgen_curve_nid(pctx, NID_secp256k1) <= 0 || EVP_PKEY_keygen(pctx, &pkey) <= 0) {
             std::cerr << "Error generating EC_KEY.\n";
+            EVP_PKEY_CTX_free(pctx);
+            EVP_PKEY_free(pkey);
             return "";
         }
 
+        EC_KEY *key = EVP_PKEY_get1_EC_KEY(pkey);
         const BIGNUM *bn = EC_KEY_get0_private_key(key);
         char *hex_bn = BN_bn2hex(bn);
 
         std::string privateKey(hex_bn);
         OPENSSL_free(hex_bn);
         EC_KEY_free(key);
+        EVP_PKEY_free(pkey);
+        EVP_PKEY_CTX_free(pctx);
 
         return privateKey;
     }
@@ -35,10 +37,13 @@ public:
         EC_KEY *key = EC_KEY_new_by_curve_name(NID_secp256k1);
         EC_KEY_set_private_key(key, bn);
 
-        unsigned char *signature = NULL;
-        unsigned int sig_len;
+        unsigned int sig_len = ECDSA_size(key);
+        unsigned char *signature = (unsigned char*)malloc(sig_len);
         if (!ECDSA_sign(0, (const unsigned char*)transactionHash.c_str(), transactionHash.length(), signature, &sig_len, key)) {
             std::cerr << "Error generating signature.\n";
+            EC_KEY_free(key);
+            BN_free(bn);
+            free(signature);
             return "";
         }
 
