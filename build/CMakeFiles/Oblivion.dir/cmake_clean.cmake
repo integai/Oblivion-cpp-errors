@@ -1,4 +1,10 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Oblivion.dir/adresses/private_key_gen.cpp.o"
+  "CMakeFiles/Oblivion.dir/adresses/private_key_gen.cpp.o.d"
+  "CMakeFiles/Oblivion.dir/adresses/pub_adress_generate.cpp.o"
+  "CMakeFiles/Oblivion.dir/adresses/pub_adress_generate.cpp.o.d"
+  "CMakeFiles/Oblivion.dir/adresses/pub_adress_isValid.cpp.o"
+  "CMakeFiles/Oblivion.dir/adresses/pub_adress_isValid.cpp.o.d"
   "CMakeFiles/Oblivion.dir/block.cpp.o"
   "CMakeFiles/Oblivion.dir/block.cpp.o.d"
   "CMakeFiles/Oblivion.dir/blockchain.cpp.o"
@@ -15,6 +21,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Oblivion.dir/utils/isBlockValid.cpp.o.d"
   "CMakeFiles/Oblivion.dir/utils/isTransactionValid.cpp.o"
   "CMakeFiles/Oblivion.dir/utils/isTransactionValid.cpp.o.d"
+  "CMakeFiles/Oblivion.dir/wallet.cpp.o"
+  "CMakeFiles/Oblivion.dir/wallet.cpp.o.d"
   "Oblivion"
   "Oblivion.pdb"
 )

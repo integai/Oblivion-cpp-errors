@@ -46,5 +46,29 @@
   "command": "/usr/bin/clang++  -I/Users/oblivisheee/Documents/GitHub/Oblivion -isystem /opt/homebrew/Cellar/openssl@3/3.2.0_1/include -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/Oblivion.dir/utils/isTransactionValid.cpp.o -c /Users/oblivisheee/Documents/GitHub/Oblivion/utils/isTransactionValid.cpp",
   "file": "/Users/oblivisheee/Documents/GitHub/Oblivion/utils/isTransactionValid.cpp",
   "output": "CMakeFiles/Oblivion.dir/utils/isTransactionValid.cpp.o"
+},
+{
+  "directory": "/Users/oblivisheee/Documents/GitHub/Oblivion/build",
+  "command": "/usr/bin/clang++  -I/Users/oblivisheee/Documents/GitHub/Oblivion -isystem /opt/homebrew/Cellar/openssl@3/3.2.0_1/include -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/Oblivion.dir/wallet.cpp.o -c /Users/oblivisheee/Documents/GitHub/Oblivion/wallet.cpp",
+  "file": "/Users/oblivisheee/Documents/GitHub/Oblivion/wallet.cpp",
+  "output": "CMakeFiles/Oblivion.dir/wallet.cpp.o"
+},
+{
+  "directory": "/Users/oblivisheee/Documents/GitHub/Oblivion/build",
+  "command": "/usr/bin/clang++  -I/Users/oblivisheee/Documents/GitHub/Oblivion -isystem /opt/homebrew/Cellar/openssl@3/3.2.0_1/include -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/Oblivion.dir/adresses/private_key_gen.cpp.o -c /Users/oblivisheee/Documents/GitHub/Oblivion/adresses/private_key_gen.cpp",
+  "file": "/Users/oblivisheee/Documents/GitHub/Oblivion/adresses/private_key_gen.cpp",
+  "output": "CMakeFiles/Oblivion.dir/adresses/private_key_gen.cpp.o"
+},
+{
+  "directory": "/Users/oblivisheee/Documents/GitHub/Oblivion/build",
+  "command": "/usr/bin/clang++  -I/Users/oblivisheee/Documents/GitHub/Oblivion -isystem /opt/homebrew/Cellar/openssl@3/3.2.0_1/include -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/Oblivion.dir/adresses/pub_adress_generate.cpp.o -c /Users/oblivisheee/Documents/GitHub/Oblivion/adresses/pub_adress_generate.cpp",
+  "file": "/Users/oblivisheee/Documents/GitHub/Oblivion/adresses/pub_adress_generate.cpp",
+  "output": "CMakeFiles/Oblivion.dir/adresses/pub_adress_generate.cpp.o"
+},
+{
+  "directory": "/Users/oblivisheee/Documents/GitHub/Oblivion/build",
+  "command": "/usr/bin/clang++  -I/Users/oblivisheee/Documents/GitHub/Oblivion -isystem /opt/homebrew/Cellar/openssl@3/3.2.0_1/include -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/Oblivion.dir/adresses/pub_adress_isValid.cpp.o -c /Users/oblivisheee/Documents/GitHub/Oblivion/adresses/pub_adress_isValid.cpp",
+  "file": "/Users/oblivisheee/Documents/GitHub/Oblivion/adresses/pub_adress_isValid.cpp",
+  "output": "CMakeFiles/Oblivion.dir/adresses/pub_adress_isValid.cpp.o"
 }
 ]

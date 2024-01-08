@@ -736,4 +736,8 @@ CMakeFiles/Oblivion.dir/block.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__functional/pointer_to_binary_function.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__functional/pointer_to_unary_function.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__functional/unary_negate.h \
-  /Users/oblivisheee/Documents/GitHub/Oblivion/crypto/sha256.h
+  /Users/oblivisheee/Documents/GitHub/Oblivion/crypto/sha256.h \
+  /Users/oblivisheee/Documents/GitHub/Oblivion/transaction.h \
+  /Users/oblivisheee/Documents/GitHub/Oblivion/Block.h \
+  /Users/oblivisheee/Documents/GitHub/Oblivion/Blockchain.h \
+  /Users/oblivisheee/Documents/GitHub/Oblivion/block.h

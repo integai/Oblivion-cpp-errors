@@ -67,7 +67,7 @@ include CMakeFiles/run.dir/compiler_depend.make
 include CMakeFiles/run.dir/progress.make
 
 CMakeFiles/run: Oblivion
-	./Oblivion
+	/opt/homebrew/Cellar/cmake/3.28.1/bin/cmake --build . --target Oblivion
 
 run: CMakeFiles/run
 run: CMakeFiles/run.dir/build.make

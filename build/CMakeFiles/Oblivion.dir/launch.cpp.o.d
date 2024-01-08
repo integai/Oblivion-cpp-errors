@@ -734,13 +734,14 @@ CMakeFiles/Oblivion.dir/launch.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__chrono/year_month_weekday.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__chrono/file_clock.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__chrono/literals.h \
-  /Users/oblivisheee/Documents/GitHub/Oblivion/block.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/string \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__ios/fpos.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__string/extern_template_lists.h \
+  /Users/oblivisheee/Documents/GitHub/Oblivion/block.h \
   /Users/oblivisheee/Documents/GitHub/Oblivion/transaction.h \
-  /Users/oblivisheee/Documents/GitHub/Oblivion/utils/isTransactionValid.h \
-  /Users/oblivisheee/Documents/GitHub/Oblivion/utils/../transaction.h \
+  /Users/oblivisheee/Documents/GitHub/Oblivion/Block.h \
+  /Users/oblivisheee/Documents/GitHub/Oblivion/Blockchain.h \
+  /Users/oblivisheee/Documents/GitHub/Oblivion/wallet.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/ios \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__locale \
@@ -795,7 +796,4 @@ CMakeFiles/Oblivion.dir/launch.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/_types/_nl_item.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/cstdarg \
-  /Users/oblivisheee/Documents/GitHub/Oblivion/utils/isBlockValid.h \
-  /Users/oblivisheee/Documents/GitHub/Oblivion/utils/../block.h \
-  /Users/oblivisheee/Documents/GitHub/Oblivion/utils/../blockchain.h
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/cstdarg

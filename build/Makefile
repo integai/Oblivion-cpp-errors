@@ -142,6 +142,78 @@ run/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/build
 .PHONY : run/fast
 
+adresses/private_key_gen.o: adresses/private_key_gen.cpp.o
+.PHONY : adresses/private_key_gen.o
+
+# target to build an object file
+adresses/private_key_gen.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Oblivion.dir/build.make CMakeFiles/Oblivion.dir/adresses/private_key_gen.cpp.o
+.PHONY : adresses/private_key_gen.cpp.o
+
+adresses/private_key_gen.i: adresses/private_key_gen.cpp.i
+.PHONY : adresses/private_key_gen.i
+
+# target to preprocess a source file
+adresses/private_key_gen.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Oblivion.dir/build.make CMakeFiles/Oblivion.dir/adresses/private_key_gen.cpp.i
+.PHONY : adresses/private_key_gen.cpp.i
+
+adresses/private_key_gen.s: adresses/private_key_gen.cpp.s
+.PHONY : adresses/private_key_gen.s
+
+# target to generate assembly for a file
+adresses/private_key_gen.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Oblivion.dir/build.make CMakeFiles/Oblivion.dir/adresses/private_key_gen.cpp.s
+.PHONY : adresses/private_key_gen.cpp.s
+
+adresses/pub_adress_generate.o: adresses/pub_adress_generate.cpp.o
+.PHONY : adresses/pub_adress_generate.o
+
+# target to build an object file
+adresses/pub_adress_generate.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Oblivion.dir/build.make CMakeFiles/Oblivion.dir/adresses/pub_adress_generate.cpp.o
+.PHONY : adresses/pub_adress_generate.cpp.o
+
+adresses/pub_adress_generate.i: adresses/pub_adress_generate.cpp.i
+.PHONY : adresses/pub_adress_generate.i
+
+# target to preprocess a source file
+adresses/pub_adress_generate.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Oblivion.dir/build.make CMakeFiles/Oblivion.dir/adresses/pub_adress_generate.cpp.i
+.PHONY : adresses/pub_adress_generate.cpp.i
+
+adresses/pub_adress_generate.s: adresses/pub_adress_generate.cpp.s
+.PHONY : adresses/pub_adress_generate.s
+
+# target to generate assembly for a file
+adresses/pub_adress_generate.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Oblivion.dir/build.make CMakeFiles/Oblivion.dir/adresses/pub_adress_generate.cpp.s
+.PHONY : adresses/pub_adress_generate.cpp.s
+
+adresses/pub_adress_isValid.o: adresses/pub_adress_isValid.cpp.o
+.PHONY : adresses/pub_adress_isValid.o
+
+# target to build an object file
+adresses/pub_adress_isValid.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Oblivion.dir/build.make CMakeFiles/Oblivion.dir/adresses/pub_adress_isValid.cpp.o
+.PHONY : adresses/pub_adress_isValid.cpp.o
+
+adresses/pub_adress_isValid.i: adresses/pub_adress_isValid.cpp.i
+.PHONY : adresses/pub_adress_isValid.i
+
+# target to preprocess a source file
+adresses/pub_adress_isValid.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Oblivion.dir/build.make CMakeFiles/Oblivion.dir/adresses/pub_adress_isValid.cpp.i
+.PHONY : adresses/pub_adress_isValid.cpp.i
+
+adresses/pub_adress_isValid.s: adresses/pub_adress_isValid.cpp.s
+.PHONY : adresses/pub_adress_isValid.s
+
+# target to generate assembly for a file
+adresses/pub_adress_isValid.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Oblivion.dir/build.make CMakeFiles/Oblivion.dir/adresses/pub_adress_isValid.cpp.s
+.PHONY : adresses/pub_adress_isValid.cpp.s
+
 block.o: block.cpp.o
 .PHONY : block.o
 
@@ -334,6 +406,30 @@ utils/isTransactionValid.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Oblivion.dir/build.make CMakeFiles/Oblivion.dir/utils/isTransactionValid.cpp.s
 .PHONY : utils/isTransactionValid.cpp.s
 
+wallet.o: wallet.cpp.o
+.PHONY : wallet.o
+
+# target to build an object file
+wallet.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Oblivion.dir/build.make CMakeFiles/Oblivion.dir/wallet.cpp.o
+.PHONY : wallet.cpp.o
+
+wallet.i: wallet.cpp.i
+.PHONY : wallet.i
+
+# target to preprocess a source file
+wallet.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Oblivion.dir/build.make CMakeFiles/Oblivion.dir/wallet.cpp.i
+.PHONY : wallet.cpp.i
+
+wallet.s: wallet.cpp.s
+.PHONY : wallet.s
+
+# target to generate assembly for a file
+wallet.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Oblivion.dir/build.make CMakeFiles/Oblivion.dir/wallet.cpp.s
+.PHONY : wallet.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -344,6 +440,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... run"
 	@echo "... Oblivion"
+	@echo "... adresses/private_key_gen.o"
+	@echo "... adresses/private_key_gen.i"
+	@echo "... adresses/private_key_gen.s"
+	@echo "... adresses/pub_adress_generate.o"
+	@echo "... adresses/pub_adress_generate.i"
+	@echo "... adresses/pub_adress_generate.s"
+	@echo "... adresses/pub_adress_isValid.o"
+	@echo "... adresses/pub_adress_isValid.i"
+	@echo "... adresses/pub_adress_isValid.s"
 	@echo "... block.o"
 	@echo "... block.i"
 	@echo "... block.s"
@@ -368,6 +473,9 @@ help:
 	@echo "... utils/isTransactionValid.o"
 	@echo "... utils/isTransactionValid.i"
 	@echo "... utils/isTransactionValid.s"
+	@echo "... wallet.o"
+	@echo "... wallet.i"
+	@echo "... wallet.s"
 .PHONY : help
 
 

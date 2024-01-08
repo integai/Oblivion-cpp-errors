@@ -101,7 +101,11 @@
 				4,
 				5,
 				6,
-				7
+				7,
+				8,
+				9,
+				10,
+				11
 			]
 		}
 	],
@@ -151,7 +155,11 @@
 				4,
 				5,
 				6,
-				7
+				7,
+				8,
+				9,
+				10,
+				11
 			]
 		}
 	],
@@ -203,6 +211,30 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "utils/isTransactionValid.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "wallet.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "adresses/private_key_gen.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "adresses/pub_adress_generate.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "adresses/pub_adress_isValid.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

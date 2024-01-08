@@ -181,6 +181,62 @@ CMakeFiles/Oblivion.dir/utils/isTransactionValid.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Oblivion.dir/utils/isTransactionValid.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/oblivisheee/Documents/GitHub/Oblivion/utils/isTransactionValid.cpp -o CMakeFiles/Oblivion.dir/utils/isTransactionValid.cpp.s
 
+CMakeFiles/Oblivion.dir/wallet.cpp.o: CMakeFiles/Oblivion.dir/flags.make
+CMakeFiles/Oblivion.dir/wallet.cpp.o: /Users/oblivisheee/Documents/GitHub/Oblivion/wallet.cpp
+CMakeFiles/Oblivion.dir/wallet.cpp.o: CMakeFiles/Oblivion.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/oblivisheee/Documents/GitHub/Oblivion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Oblivion.dir/wallet.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Oblivion.dir/wallet.cpp.o -MF CMakeFiles/Oblivion.dir/wallet.cpp.o.d -o CMakeFiles/Oblivion.dir/wallet.cpp.o -c /Users/oblivisheee/Documents/GitHub/Oblivion/wallet.cpp
+
+CMakeFiles/Oblivion.dir/wallet.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Oblivion.dir/wallet.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/oblivisheee/Documents/GitHub/Oblivion/wallet.cpp > CMakeFiles/Oblivion.dir/wallet.cpp.i
+
+CMakeFiles/Oblivion.dir/wallet.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Oblivion.dir/wallet.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/oblivisheee/Documents/GitHub/Oblivion/wallet.cpp -o CMakeFiles/Oblivion.dir/wallet.cpp.s
+
+CMakeFiles/Oblivion.dir/adresses/private_key_gen.cpp.o: CMakeFiles/Oblivion.dir/flags.make
+CMakeFiles/Oblivion.dir/adresses/private_key_gen.cpp.o: /Users/oblivisheee/Documents/GitHub/Oblivion/adresses/private_key_gen.cpp
+CMakeFiles/Oblivion.dir/adresses/private_key_gen.cpp.o: CMakeFiles/Oblivion.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/oblivisheee/Documents/GitHub/Oblivion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Oblivion.dir/adresses/private_key_gen.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Oblivion.dir/adresses/private_key_gen.cpp.o -MF CMakeFiles/Oblivion.dir/adresses/private_key_gen.cpp.o.d -o CMakeFiles/Oblivion.dir/adresses/private_key_gen.cpp.o -c /Users/oblivisheee/Documents/GitHub/Oblivion/adresses/private_key_gen.cpp
+
+CMakeFiles/Oblivion.dir/adresses/private_key_gen.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Oblivion.dir/adresses/private_key_gen.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/oblivisheee/Documents/GitHub/Oblivion/adresses/private_key_gen.cpp > CMakeFiles/Oblivion.dir/adresses/private_key_gen.cpp.i
+
+CMakeFiles/Oblivion.dir/adresses/private_key_gen.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Oblivion.dir/adresses/private_key_gen.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/oblivisheee/Documents/GitHub/Oblivion/adresses/private_key_gen.cpp -o CMakeFiles/Oblivion.dir/adresses/private_key_gen.cpp.s
+
+CMakeFiles/Oblivion.dir/adresses/pub_adress_generate.cpp.o: CMakeFiles/Oblivion.dir/flags.make
+CMakeFiles/Oblivion.dir/adresses/pub_adress_generate.cpp.o: /Users/oblivisheee/Documents/GitHub/Oblivion/adresses/pub_adress_generate.cpp
+CMakeFiles/Oblivion.dir/adresses/pub_adress_generate.cpp.o: CMakeFiles/Oblivion.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/oblivisheee/Documents/GitHub/Oblivion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Oblivion.dir/adresses/pub_adress_generate.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Oblivion.dir/adresses/pub_adress_generate.cpp.o -MF CMakeFiles/Oblivion.dir/adresses/pub_adress_generate.cpp.o.d -o CMakeFiles/Oblivion.dir/adresses/pub_adress_generate.cpp.o -c /Users/oblivisheee/Documents/GitHub/Oblivion/adresses/pub_adress_generate.cpp
+
+CMakeFiles/Oblivion.dir/adresses/pub_adress_generate.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Oblivion.dir/adresses/pub_adress_generate.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/oblivisheee/Documents/GitHub/Oblivion/adresses/pub_adress_generate.cpp > CMakeFiles/Oblivion.dir/adresses/pub_adress_generate.cpp.i
+
+CMakeFiles/Oblivion.dir/adresses/pub_adress_generate.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Oblivion.dir/adresses/pub_adress_generate.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/oblivisheee/Documents/GitHub/Oblivion/adresses/pub_adress_generate.cpp -o CMakeFiles/Oblivion.dir/adresses/pub_adress_generate.cpp.s
+
+CMakeFiles/Oblivion.dir/adresses/pub_adress_isValid.cpp.o: CMakeFiles/Oblivion.dir/flags.make
+CMakeFiles/Oblivion.dir/adresses/pub_adress_isValid.cpp.o: /Users/oblivisheee/Documents/GitHub/Oblivion/adresses/pub_adress_isValid.cpp
+CMakeFiles/Oblivion.dir/adresses/pub_adress_isValid.cpp.o: CMakeFiles/Oblivion.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/oblivisheee/Documents/GitHub/Oblivion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Oblivion.dir/adresses/pub_adress_isValid.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Oblivion.dir/adresses/pub_adress_isValid.cpp.o -MF CMakeFiles/Oblivion.dir/adresses/pub_adress_isValid.cpp.o.d -o CMakeFiles/Oblivion.dir/adresses/pub_adress_isValid.cpp.o -c /Users/oblivisheee/Documents/GitHub/Oblivion/adresses/pub_adress_isValid.cpp
+
+CMakeFiles/Oblivion.dir/adresses/pub_adress_isValid.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Oblivion.dir/adresses/pub_adress_isValid.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/oblivisheee/Documents/GitHub/Oblivion/adresses/pub_adress_isValid.cpp > CMakeFiles/Oblivion.dir/adresses/pub_adress_isValid.cpp.i
+
+CMakeFiles/Oblivion.dir/adresses/pub_adress_isValid.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Oblivion.dir/adresses/pub_adress_isValid.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/oblivisheee/Documents/GitHub/Oblivion/adresses/pub_adress_isValid.cpp -o CMakeFiles/Oblivion.dir/adresses/pub_adress_isValid.cpp.s
+
 # Object files for target Oblivion
 Oblivion_OBJECTS = \
 "CMakeFiles/Oblivion.dir/main.cpp.o" \
@@ -190,7 +246,11 @@ Oblivion_OBJECTS = \
 "CMakeFiles/Oblivion.dir/launch.cpp.o" \
 "CMakeFiles/Oblivion.dir/transaction.cpp.o" \
 "CMakeFiles/Oblivion.dir/utils/isBlockValid.cpp.o" \
-"CMakeFiles/Oblivion.dir/utils/isTransactionValid.cpp.o"
+"CMakeFiles/Oblivion.dir/utils/isTransactionValid.cpp.o" \
+"CMakeFiles/Oblivion.dir/wallet.cpp.o" \
+"CMakeFiles/Oblivion.dir/adresses/private_key_gen.cpp.o" \
+"CMakeFiles/Oblivion.dir/adresses/pub_adress_generate.cpp.o" \
+"CMakeFiles/Oblivion.dir/adresses/pub_adress_isValid.cpp.o"
 
 # External object files for target Oblivion
 Oblivion_EXTERNAL_OBJECTS =
@@ -203,11 +263,15 @@ Oblivion: CMakeFiles/Oblivion.dir/launch.cpp.o
 Oblivion: CMakeFiles/Oblivion.dir/transaction.cpp.o
 Oblivion: CMakeFiles/Oblivion.dir/utils/isBlockValid.cpp.o
 Oblivion: CMakeFiles/Oblivion.dir/utils/isTransactionValid.cpp.o
+Oblivion: CMakeFiles/Oblivion.dir/wallet.cpp.o
+Oblivion: CMakeFiles/Oblivion.dir/adresses/private_key_gen.cpp.o
+Oblivion: CMakeFiles/Oblivion.dir/adresses/pub_adress_generate.cpp.o
+Oblivion: CMakeFiles/Oblivion.dir/adresses/pub_adress_isValid.cpp.o
 Oblivion: CMakeFiles/Oblivion.dir/build.make
 Oblivion: /opt/homebrew/Cellar/openssl@3/3.2.0_1/lib/libssl.dylib
 Oblivion: /opt/homebrew/Cellar/openssl@3/3.2.0_1/lib/libcrypto.dylib
 Oblivion: CMakeFiles/Oblivion.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/oblivisheee/Documents/GitHub/Oblivion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable Oblivion"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/oblivisheee/Documents/GitHub/Oblivion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable Oblivion"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Oblivion.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
